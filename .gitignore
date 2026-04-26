@@ -1,10 +1,15 @@
-.venv/
-__pycache__/
-*.pyc
-
+# Logs Robot Framework
 log.html
 output.xml
 report.html
 
-.vscode/
+# Qualquer HTML/XML gerado
+*.html
+*.xml
 
+# Pastas
+output/
+logs/
+
+# Ambiente virtual
+.venv/
